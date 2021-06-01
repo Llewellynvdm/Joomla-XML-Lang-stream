@@ -25,18 +25,17 @@ function main() {
     exit 1
   fi
   # now get the mapper data
-  while IFS=$'\t' read -r -a row
-	do
-		[[ "$row" =~ ^#.*$ ]] && continue
-		# set the url
+  while IFS=$'\t' read -r -a row; do
+    [[ "$row" =~ ^#.*$ ]] && continue
+    # set the url
     URL_MAIN_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${row[0]}"
     # set the path
     PATH_MAIN_FILE="${TARGET_FOLDER}${row[1]}.xml"
-		# get the main translation file of this version
-		showMessage "Downloading: ${URL_MAIN_LANG}\nStoring@: ${PATH_MAIN_FILE}"
-		# do the work now
-		wget -q "${URL_MAIN_LANG}" --output-document="${PATH_MAIN_FILE}"
-		# now get each translation pack
+    # get the main translation file of this version
+    showMessage "Downloading: ${URL_MAIN_LANG}\nStoring@: ${PATH_MAIN_FILE}"
+    # do the work now
+    wget -q "${URL_MAIN_LANG}" --output-document="${PATH_MAIN_FILE}"
+    # now get each translation pack
     while readXML; do
       # get the language tag
       LANG=$(getElement)
@@ -49,19 +48,18 @@ function main() {
         # set the path
         PATH_FILE="${PATH_LANG}/${LANG}_details.xml"
         # get the language pack file
-		    showMessage "Downloading: ${URL_LANG}\nStoring@: ${PATH_FILE}"
+        showMessage "Downloading: ${URL_LANG}\nStoring@: ${PATH_FILE}"
         # make sure the directory is set
         mkdir -p "${PATH_LANG}"
         # do the work now
         wget -q "${URL_LANG}" --output-document="${PATH_FILE}"
       fi
-    done < "${PATH_MAIN_FILE}"
-	done < "$REPO_MAPPER"
-	# check if we should update the repo
-	if (("$PUSH" == 1)); then
+    done <"${PATH_MAIN_FILE}"
+  done <"$REPO_MAPPER"
+  # check if we should update the repo
+  if (("$PUSH" == 1)); then
     # we first check if there are changes
-    if [[ -z $(git status --porcelain) ]];
-    then
+    if [[ -z $(git status --porcelain) ]]; then
       echo "Nothing to commit here"
     else
       # make sure all new files are added and others removed where needed
@@ -71,7 +69,7 @@ function main() {
       # now push changes up to github...
       git push
     fi
-	fi
+  fi
   # show completion message
   completedBuildMessage
   exit 0
@@ -99,21 +97,21 @@ function completedBuildMessage() {
 
 # our XML helpers
 # https://stackoverflow.com/a/7052168/1429677
-function readXML () {
-    local IFS=\>
-    read -d \< ENTITY CONTENT
-    local ret=$?
-    TAG_NAME=${ENTITY%% *}
-    ATTRIBUTES=${ENTITY#* }
-    return $ret
+function readXML() {
+  local IFS=\>
+  read -d \< ENTITY CONTENT
+  local ret=$?
+  TAG_NAME=${ENTITY%% *}
+  ATTRIBUTES=${ENTITY#* }
+  return $ret
 }
-function getElement () {
-    if [[ $TAG_NAME = "extension" ]] ; then
-        eval local $ATTRIBUTES
-        echo "$element"
-    else
-        echo ''
-    fi
+function getElement() {
+  if [[ $TAG_NAME == "extension" ]]; then
+    eval local $ATTRIBUTES
+    echo "$element"
+  else
+    echo ''
+  fi
 }
 
 # set any/all default config property
@@ -239,9 +237,9 @@ while :; do
   --dry)
     DRYRUN=1
     ;;
-	--push)
-		PUSH=1
-		;;
+  --push)
+    PUSH=1
+    ;;
   --version-key) # Takes an option argument; ensure it has been specified.
     if [ "$2" ]; then
       URL_VERSION_KEY=$2
