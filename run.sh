@@ -35,13 +35,13 @@ function main() {
 		# get the main translation file of this version
 		showMessage "Downloading: ${URL_MAIN_LANG}\nStoring@: ${PATH_MAIN_FILE}"
 		# do the work now
-		wget -q "${URL_MAIN_LANG}" --output-document="${PATH_FILE}"
+		wget -q "${URL_MAIN_LANG}" --output-document="${PATH_MAIN_FILE}"
 		# now get each translation pack
     while readXML; do
       # get the language tag
       LANG=$(getElement)
       # act only if we have valid tag
-      if [ ! -z "${LANG}" ]; then
+      if [ -n "${LANG}" ]; then
         # set the url
         URL_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${row[0]}&${URL_LANGUAGE_KEY}=${LANG}"
         # set the path
@@ -111,6 +111,8 @@ function getElement () {
     if [[ $TAG_NAME = "extension" ]] ; then
         eval local $ATTRIBUTES
         echo "$element"
+    else
+        echo ''
     fi
 }
 

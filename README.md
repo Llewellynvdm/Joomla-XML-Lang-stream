@@ -63,7 +63,7 @@ You are able to change a few default behaviours in the getBible API builder
 	push changes to github (only if there are changes)
 		- must be able to push (ssh authentication needed)
 
-	example: ${0##*/:-} --push
+	example: ./run.sh --push
     ======================================================
    --target-folder=<path>
     set folder where we place the XML static files
@@ -128,10 +128,6 @@ You will need to setup a list of secrets in your fork of the XML_STREAM.
 - XML_STREAM_GPG_KEY
 > The name of the myprivatekeys.asc user
 - XML_STREAM_GPG_USER
-> A repository where you want to place the XML static files
-> like: `git@github.com:llewellynvdm/Joomla-XML-Lang-stream.git`
-> the github user must have push/pull access to this repo
-- XML_STREAM_REPO
 > A id_ed25519 ssh private key liked to the github user account
 - XML_STREAM_SSH_KEY
 > A id_ed25519.pub ssh public key liked to the github user account

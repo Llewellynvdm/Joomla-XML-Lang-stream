@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extensionset name="Accredited Joomla! Translations" description="Accredited Joomla! Translations Updates">
-  <extension name="German" element="de-DE" type="package" version="4.0.0-beta7.1" detailsurl="https://update.joomla.org/language/details4/de-DE_details.xml"/>
-</extensionset>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Ukrainian</name>
+    <description>&lt;p&gt;This is the Ukrainian Language Pack for Joomla! 1.5.17&lt;/p&gt;</description>
+    <element>pkg_uk-UA</element>
+    <type>package</type>
+    <version>1.5.17.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="036df621a4bde6dc4904b098b793cdd1" sha1="b81dcd503e1072f0a829172cbc0439931d53cd1d" sha256="2f73a6c4f29cbb5b762ec450bd559fc0c558e9c6a883897fce10280d1db2fa39" sha384="e224561f1c7e7bb511404a504fef27aefce3371c04ac8a7c6959b3799853e879d613f593d04c96d3f7a926c441565452" sha512="af590488750f69b4203378e961bd8316396154e44c9f8c31c1e6aa998c928864c594c4c4c52b394bd3e9f1954fa4cbc86c82f5934c15f6f4a87bed44fd5e612c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-ukrainian/1-5-17-1/uk-ua_joomla_lang_full_1-5-17v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

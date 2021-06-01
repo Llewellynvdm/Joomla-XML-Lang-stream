@@ -25,5 +25,5 @@ xml.stream.repo.push=0
 # xml stream target folder where we place the XML static files
 xml.stream.target.folder=/home/username/XML-stream/src/
 
-# kill all whiptail messages 0->normal; 1->none
+# kill all messages 0->normal; 1->none
 xml.stream.build.quiet=0
