@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Slovak</name>
+    <description>&lt;p&gt;This is the Slovak Language Pack for Joomla! 1.5.21&lt;/p&gt;</description>
+    <element>pkg_sk-SK</element>
+    <type>package</type>
+    <version>1.5.21.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="c3b5f7f3c175db5d0fd503e0704beaee" sha1="7bc73c52687c90364e5fdf42d15d3d91e1adf764" sha256="47874b1197e5fb302e01122f9cab02850d90c92dec330deb723e19d1232ccc8a" sha384="6d5e7628bf8c97dfe055da9923d0e4756af9d09c3b11d68899a4f59b9c50c11d37e354dc8c66368dd6f7146ea34e4274" sha512="8195ad096b5c9d286f8a5ae47a0ffa8039b00fdac071a56e6837185754423c8d899695524f6cac1ece6921f492e7ff7b99a82329ae91cacdf9ff1a89cb6a3d8d">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-slovak/1-5-21-1/sk-sk_joomla_lang_full_1-5-21v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

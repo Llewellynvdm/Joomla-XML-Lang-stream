@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Norwegian</name>
+    <description>&lt;p&gt;This is the Norwegian Bokmål Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_nb-NO</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="f2748badfeaab515f782d2ef03d95784" sha1="cdf70d9b30bd817f0bd8802755f7fa59ba048d15" sha256="c9daf98ff6b7312cd41d51eda4f3c30e1dc7d00d714ceb4c278b8805d14718cc" sha384="4a932c9fee6b3a55a8379ed2471819abad318c796630e9359f796e689bef7749b6bb64ac7e7311e5dbe3fb3afac63ef2" sha512="8b2b8b293641b0de8dff74ced5ec0bc5bbe3662788a50f0ee42606cb0d80150089e296a16bae92930a671affa383b5b96db03ec6ce397c7eb5a1b26595e3604c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-norwegian/1-5-22-1/nb-no_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

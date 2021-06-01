@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Czech</name>
+    <description>&lt;p&gt;This is the Czech Language Pack for Joomla! 1.5.18&lt;/p&gt;</description>
+    <element>pkg_cs-CZ</element>
+    <type>package</type>
+    <version>1.5.18.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="2c654c928f7fc17aeaba97662f831c91" sha1="df42b768c1a512f887ef1565cd88ecc425986530" sha256="313810031d2b9bb0e7b9ac650b578e151df20c8364d053ca2573af3bed0d0bcd" sha384="51493e51e1bb16c07dffa2f263fc3e51ea9c5b60999825a7e7b768fdeae3936599147294e5743febaa18ef5f439b5ed3" sha512="294b7df5e63f83dc32faf828f4a80ea5c72ff25cde44cb71f5c596bb74de4e5a421cf574d7d9670d062f97e90c799028a3eecac9324779522bd18c25df6cb42a">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-czech/1-5-18-1/cs-cz_joomla_lang_full_1-5-18v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

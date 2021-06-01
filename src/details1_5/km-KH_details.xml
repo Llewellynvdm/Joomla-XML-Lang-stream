@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Khmer (Cambodia)</name>
+    <description>&lt;p&gt;This is the Khmer (Cambodia) Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_km-KH</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="ecc68f304b4924026bca8d2864bfcb10" sha1="0cd195d737bc410a6fcfb8fcd2f1ca5c7c2a1585" sha256="750a49aa9e4a5bdea2cda6b5a118dbe7ca32065cdad1046f2247a12ef699d677" sha384="31ce1c0dc43b0097ca5b663073c49a06abde464c27409b37960a02a25cd6f79c0f0a58d2521e8b5ce60e86fdfe2158b5" sha512="81b2e008cc9fd9316407ac18bb44443749142d3117f491df8ce2339a931722aefb012a48eda6ecd8aa77baf9410e8e076d8301d3cd8dd2c1eb73801ea16847f6">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-khmer/1-5-20-1/km-kh_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

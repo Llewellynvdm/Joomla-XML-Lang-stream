@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - German</name>
+    <description>&lt;p&gt;This is the German Language Pack for Joomla! 1.5.23&lt;/p&gt;</description>
+    <element>pkg_de-DE</element>
+    <type>package</type>
+    <version>1.5.23.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="a2d3a4c71e6bab4ad23fe323f36ec4eb" sha1="d98596226665c554c8efbf6a192bca371eb4bbf8" sha256="d0f4d42e68cc32b3053c5c1639cd0cee9c206beaf2c20b6cd5ab93aa4244319a" sha384="2d8b3abeebb9bfc3374ac3eaea1a4614edf19e7971c0503e0bd7acc5d5edbf0746536a862f9841563a7bdbdae348766a" sha512="79ecca29b44561a067756586e91eac08e9392b669f80a6c4617e4d03564d6a37123adfa4c659111ba72649755f7bf9ca996ea694181d7b0e0493250136e8971c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-german/1-5-23-1/de-de_joomla_lang_full_1-5-23v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

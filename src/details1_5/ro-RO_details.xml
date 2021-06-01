@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Romanian</name>
+    <description>&lt;p&gt;This is the Romanian Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_ro-RO</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="bdaa2f9bdfc6a1d1a0f72b046b3c1ce3" sha1="17e5df2a80ca08c3d1b9e03e232b62164383abcc" sha256="4e277992b6f2ae5b9ae6afcc638f1654c5f5dfe79f52c9fd829188e7f87884ea" sha384="6fb65179bae3270ec62bfeb21743c6bc7791d29ac01f4c5f326526bd26b79a6711dde4d380765a1a3bba3465f1637e87" sha512="f3c5f7460db074883859ae14cd3e9cc17bb78da8d64b576861407e19e61b6ae172b6562e985399889ca0ae371179a731592ab72f7352a8aff7e93c96e5228c8e">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-romanian/1-5-22-1/ro-ro_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

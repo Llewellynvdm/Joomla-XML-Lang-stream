@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - English (USA)</name>
+    <description>&lt;p&gt;This is the English, USA Language Pack for Joomla! 1.5.15&lt;/p&gt;</description>
+    <element>pkg_en-US</element>
+    <type>package</type>
+    <version>1.5.15.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="34c437b0be6d7abd4a49a2ff88b7c4c9" sha1="789c34d1b14456cc3fba027deb861e8596ad8a10" sha256="cf6ae9687cd4404e0084849480b2ae0baf993db65f0a9784de9a398793b9f8f9" sha384="90e1686d26e1fae17745f5a966b7c3af3da44c58cd70593671c332f474d2727707f86ccc70186dd3d5be80c72bf1ee24" sha512="a2512b15bf503f6a0403f70a7eaa191e5e70e60976ce8d23f197105a6a5c45f0a9e0e19632074a89ac6b1aafae6897506fa3c744ebce53f5bea9e7f2fefa6b90">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-english-us/1-5-15-1/en-us_joomla_lang_full_1-5-15v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Swedish</name>
+    <description>&lt;p&gt;This is the Swedish Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_sv-SE</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="44f46cf8da3317e1bc5f6040bde25454" sha1="dd21ba5c8841c6457bc8245869da54b8119fb35f" sha256="9edde41bbaae82b089b822335f3cb34b15b436b3eaa5615ec6e4e3a9a95d73e0" sha384="8589180f03410d70376f9a164346b27f05a3f22fb21cca898ac389c81d5a2398d18e29798b0158c1d479afeed860b01c" sha512="4f72d3a282079cc733061c81c3264822ec65a7faeb06a992b3d41daf45a1336de61a744df6b26c388cad7bf3e1b9303f659688928ac214d12ac13b2fedf96be4">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-swedish/1-5-20-1/sv-se_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

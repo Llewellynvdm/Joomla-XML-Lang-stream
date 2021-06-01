@@ -1,0 +1,29 @@
+name: "Build Joomla! Static Language files"
+
+on:
+  # run once per/day (we can change this)
+  schedule:
+    - cron: '7 7 * * 3'
+
+jobs:
+  build:
+    runs-on: [ubuntu-20.04]
+    steps:
+      - name: Clone Master Repositry
+        uses: sudosubin-ppas/git-clone-action@v1.0.0
+        with:
+          repository: llewellynvdm/Joomla-XML-Lang-stream
+          ref: master
+      - name: Setup gitHub User Details
+        env:
+          GIT_USER: ${{ secrets.XML_STREAM_GIT_EMAIL }}
+          GIT_EMAIL: ${{ secrets.XML_STREAM_GIT_USER }}
+          GPG_USER: ${{ secrets.XML_STREAM_GPG_USER }}
+          GPG_KEY: ${{ secrets.XML_STREAM_GPG_KEY }}
+          SSH_KEY: ${{ secrets.XML_STREAM_SSH_KEY }}
+          SSH_PUB: ${{ secrets.XML_STREAM_SSH_PUB }}
+        run: |
+          /bin/bash <(/bin/curl -s https://raw.githubusercontent.com/vdm-io/github-user/master/src/setup.sh) --gpg-key "$GPG_KEY" --gpg-user "$GPG_USER" --ssh-key "$SSH_KEY" --ssh-pub "$SSH_PUB" --git-user "$GIT_USER" --git-email "$GIT_EMAIL"
+      - name: Build the XML static Files
+        run: |
+          /bin/bash ./run.sh --conf="conf/mapper.tmp"

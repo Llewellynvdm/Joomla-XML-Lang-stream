@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Laotian</name>
+    <description>&lt;p&gt;This is the Laotian Language Pack for Joomla! 1.5.21&lt;/p&gt;</description>
+    <element>pkg_lo-LA</element>
+    <type>package</type>
+    <version>1.5.21.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="32c939c9e557213e209fdb42017f98e5" sha1="f63c2c8350f6a246e352ab85f0740334726b41cd" sha256="536c8b06abefcfbb85f0ead9247c23bea85d1a344ca4a66b82e8f29436a7d483" sha384="3956fe20362bd38eb85a97f9c0a2af02995b6e26ba9cdbab3b8f2bee75129729f19d75b738e7945fe962b25f6a8f5344" sha512="a5765d16c9b231491f13604b42d9230589acccebb1cd01f551569e13f514d515ac76130ef5788449f371a542e33cc6e31c01e16826d3713f551c94e837df5300">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-laotian/1-5-21-1/lo-la_joomla_lang_full_1-5-21v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Estonian</name>
+    <description>&lt;p&gt;This is the Estonian Language Pack for Joomla! 1.5.17&lt;/p&gt;</description>
+    <element>pkg_et-EE</element>
+    <type>package</type>
+    <version>1.5.17.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="2abb2196a57b199350027d763bf8ccc4" sha1="6ec56a356fa49929f2e9188dab3b1f72ae27f7a8" sha256="0968b540e1e898fcfcf2532e585921f6ba80e42d11031bcc778e835a209d968b" sha384="6c50c63bbb7f49aca8a2d49882418f82752b7fbffcb43d80ba34487db4b5e6a59573799e44a73a267392385e484e6124" sha512="5bbe53e2f7048004d230a8bbceab45ae034f5562372f23709700892e7982c0868780dd5f2ba7f6dd4e2b777941017c4ac2782913017e0c608f530a6c3ffb3b8c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-estonian/1-5-17-1/et-ee_joomla_lang_full_1-5-17v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

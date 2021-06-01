@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Thai</name>
+    <description>&lt;p&gt;This is the Thai Language Pack for Joomla! 1.5.15&lt;/p&gt;</description>
+    <element>pkg_th-TH</element>
+    <type>package</type>
+    <version>1.5.15.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="380bf4a0077be64596804ffa1fdef615" sha1="40e47071a6c184323e5a5ffcdfe53a7a89c2408d" sha256="1b554736f796d929f50f60a33398079b665272b084001ebd080a610f708eaae7" sha384="bff621126fa5041d64147e02d0f1a1f468fa92a7fbd48c2df2d118dccd83b395a52ee01b7dc359ab60ecc115bfa87d25" sha512="90578925d0deaec64822f94a5e601f6b380da09f3e306c61d683076acb0d3a671c02f5a33d95d5bc8d2740e63def4584b791809624e96f02a28615a1d70cc1e1">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-thai/1-5-15-1/th-th_joomla_lang_full_1-5-15v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

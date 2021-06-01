@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Hungarian</name>
+    <description>&lt;p&gt;This is the Hungarian Language Pack for Joomla! 1.5.17&lt;/p&gt;</description>
+    <element>pkg_hu-HU</element>
+    <type>package</type>
+    <version>1.5.17.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="61d40501774e417850ddb845c54fad9a" sha1="0073a809664af2040540b6a428ebedb7e8da9b1d" sha256="a47bfa339585e546b36d39cd8758ad1ea45694d70ac5e62d3e9546bd3b35d9fb" sha384="3bccbd3efa3c7ce106269a9f9b84ab64ac4f7ec79675bd2acbef27fee4a85c2dbc7a0c420e0198df2e350f9273091fe3" sha512="981455781cdcf739171103e7ad1d58f9eb0bf3c0df40474de48c9e762369d6dc6361535283a8c543cbab708a70d9326a4dcadb968f8ef6d083ba88ae7815f74f">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-hungarian/1-5-17-1/hu-hu_joomla_lang_full_1-5-17v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

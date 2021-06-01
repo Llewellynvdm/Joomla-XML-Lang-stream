@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Polish</name>
+    <description>&lt;p&gt;This is the Polish Language Pack for Joomla! 1.5.26&lt;/p&gt;</description>
+    <element>pkg_pl-PL</element>
+    <type>package</type>
+    <version>1.5.26.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="f67b98792f0abe4caadb6bf0caf3d022" sha1="64afb304a677ae6ac0246e980017a77fa85e267f" sha256="322c1714845f4e0945f992aca109ec73b0ba8bba0509b38b6b88366356afc724" sha384="414a6e17a9dbee7ac8f955e90d28183024a7ce7e4148a957c2aa7c9f38c7588183ed543ed983ee4099e4fa6b83fd583f" sha512="a59b573918429ba04b7a68ec5275f4d54979942e8bb98919256a687bac8f6e6cdf4931b6416d398fcffb0b48316313feee1c55f2a37cd0b1ce79806d491ccf4e">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-polish/1-5-26-1/pl-pl_joomla_lang_full_1-5-26v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

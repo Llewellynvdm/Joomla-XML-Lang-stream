@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Arabic Unitag</name>
+    <description>&lt;p&gt;This is the Arabic Unitag Language Pack for Joomla! 1.5.21&lt;/p&gt;</description>
+    <element>pkg_ar-AA</element>
+    <type>package</type>
+    <version>1.5.21.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="4b29b71309924255e96772682c774724" sha1="16aa408fc5465a9eb3732f48b09a8b7cb532208f" sha256="c877fab5a289a9e5f73c430c641c35500c256a6b9a67a930e59ce6ebe06d335f" sha384="101cd8a1494f8306301f76759cc9e65fde4c919dfbb4ae67b31f0b43b85ecb45635d56c43cd3e4b007a17fe8e6e63312" sha512="a35c3865e328cef773997029afb92fea184d9bf22a9a3d3ca050516921451fe27f20b8499841295e5c931c2995e3bb0343e5bf6ef786e8ba27f9846b606c9047">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-arabic-unitag/1-5-21-1/ar-aa_joomla_lang_full_1-5-21v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

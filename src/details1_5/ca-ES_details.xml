@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Catalan</name>
+    <description>&lt;p&gt;This is the Catalan Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_ca-ES</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="194cd2c8da914ed7dddb0bf289df1ffa" sha1="5bf3dddacebb3163238d24b6c5b49b53c65b7b5a" sha256="8990722393dc1a4390412538fe53e44e3f5921d20973fdc29c00ee9646190b64" sha384="6418350b0e55fdfc4c12e107cee81fca790f2ded83945c61b8d46610d345bf83493531c9cc3016db1153e530ab8264f5" sha512="82f5a146b978c875f2d50a910cda148715b88ff85f46ce2038dbf54283343aace002c02b5f00c1c2d9c212c2e29d43045954e1b16048efa6173a8793d278d749">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-catalan/1-5-22-1/ca-es_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

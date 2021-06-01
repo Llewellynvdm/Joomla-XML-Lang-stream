@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Tamil (India)</name>
+    <description>&lt;p&gt;This is the Tamil, India Language Pack for Joomla! 1.5.26&lt;/p&gt;</description>
+    <element>pkg_ta-IN</element>
+    <type>package</type>
+    <version>1.5.26.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="1d3e29e32fccfa143e54d3973ea82ca8" sha1="cb704229cbfcdf9a288e7a4c3ab31a49d3ecbf4e" sha256="05933635c72dc0bcc4a1f3edbf24670a208638c31ec8aad8f9d424322b28fa01" sha384="e3f6c267968c05fda9bc46218edc3d888d75d95d763cc52d10ac07f80bac5361704bd9c1e40ed8838eee633791453848" sha512="f3816c61002a65d1c9ea307644e4dc4e5b7b980bd772f25d2e94d6ceae5213d8cf2fdafaf9d55eb224aea5fd010cfd0d8606121dbce3f9cc03ddbc14dac9cbd5">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-tamil-india/1-5-26-1/ta-in_joomla_lang_full_1-5-26v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

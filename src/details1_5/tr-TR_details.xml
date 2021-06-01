@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Turkish</name>
+    <description>&lt;p&gt;This is the Turkish Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_tr-TR</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="1f00b7cf045e9e3d60681309da23d07b" sha1="569377ef505e4c866319fc0021a972cbbe3e118b" sha256="8faeb49b4df57627a2962c3aaf47ddc4a2ccc292a8dd8021caaf92c0975956dc" sha384="5a63d0288b92b07844ae7223dbae73206faaab3ee1059f9d4af88f32829a19f1fdd1d866ae6c037284f86b0d0117ef8e" sha512="f947c689ecafc243c68036027c5f8791c14161535dbdc11a99806cdca4bf6e865bbc88d32b2026bad8d2067dde1d6332b5fc6635f843a647f18d627a8a5ac2ab">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-turkish/1-5-20-1/tr-tr_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

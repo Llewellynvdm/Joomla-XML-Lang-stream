@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Hebrew</name>
+    <description>&lt;p&gt;This is the Hebrew Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_he-IL</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="8edb2b32f6f9ab9d70e14e083d219676" sha1="ab2aeb37519e113420b35789e70843b826ff4064" sha256="dc87fb6e6b308edae6a6c8436d68c09c04e482567fac343d254dee73467eda7c" sha384="7f5cd379a79f9ea429f07c0aca86da17e0662cd8e6c5fa0fa523b96313104cc39d055dc6ed9a4054f69ae3a39bcc5138" sha512="218e21eee5faf1591f1cbdfbc4004c885db36f7df8d09c0baf625b304773bbc582a6eb6a537cffddcb591e637e935a4133d4b374db09a211df239a297c66a523">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-hebrew/1-5-22-1/he-il_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

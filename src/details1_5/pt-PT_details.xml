@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Portuguese (Portugal)</name>
+    <description>&lt;p&gt;This is the Portuguese, Portugal Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_pt-PT</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="3fc04afedec6604f367dbcab481be5a4" sha1="5277cade613219fba251fa8144e5ba736b6107ab" sha256="b70abdba5dc90eb8731bab2e1ed52c31cf578d3f2ef24014eb32468457c974f4" sha384="795aa831415ed097fec7eea4b16d8bfdb4b6f5f0d0bdfcad7d15361be19df38c0a7f747740c6808f257ba272e0cf1200" sha512="03adf53d518a573a4f3399a52f53204d03758b9fcf6017bf7bd5c2e8f3656d98e116bb790e161064fc7ca27bace1901a9fd863f053ae7bd35f6731770b0e33ef">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-portuguese-portugal/1-5-20-1/pt-pt_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

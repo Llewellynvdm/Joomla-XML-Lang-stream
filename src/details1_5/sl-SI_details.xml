@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Slovenian</name>
+    <description>&lt;p&gt;This is the Slovenian Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_sl-SI</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="6d802bc07e2f37630598dad2d81e9fc1" sha1="cfaa4cc35217fc80a4d0395ddba6ff89c0915b61" sha256="6b388518205a3ccc24151fe2b76743774eaa016e185d829581d3d94b670f657b" sha384="9c79cfa8f185cd76e3e6710529710600ced43616aa4b55c6a636492c4afdfdeb5d87035580afe4b736daa3ca2ab3f4bb" sha512="265a5bf2c734345b3d43a5b40bb9d676c7499b65a7ea9235ba10fa689bdb0ac501fb05341986e4418221adb97db2d259b49701831590f6146d98da1311320e7b">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-slovenian/1-5-20-1/sl-si_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

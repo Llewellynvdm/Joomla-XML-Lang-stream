@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Macedonian</name>
+    <description>&lt;p&gt;This is the Macedonian Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_mk-MK</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="f513e5fe58e412dd1f24b2a558f7619c" sha1="3bf04edc3dffae2d21d91b19ec083ac71d6f7ed3" sha256="4224cfd851716971ff9665144ee9b94e8504be7a08d781d1a02a5e951f351f45" sha384="6515b1abdb2fea8f2be2f53943a943cbfb25a23c35d0bca7e4f4eac9f910f18a8ce6bf1b5330715bf9978886581a6c50" sha512="82efcac2270edea860a86fcfe5aafbc676b90e648a56b0100308d81a8e1ce578bb979d29e678d0fcbfb67a63f791354ee2a64a7b8314f60b0d41e620222901ed">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-macedonian/1-5-22-1/mk-mk_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

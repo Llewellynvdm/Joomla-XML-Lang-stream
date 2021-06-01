@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Bulgarian</name>
+    <description>&lt;p&gt;This is the Bulgarian Language Pack for Joomla! 1.5.9&lt;/p&gt;</description>
+    <element>pkg_bg-BG</element>
+    <type>package</type>
+    <version>1.5.9.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="f3212e5175f05d0954cd6bbf04d68bda" sha1="42f465bfeba55dc70d6cea7a34f396d7d1464fa2" sha256="9b8adeba24b6bb9c391a226a38c5ef850914bf2aee83311801823b0378571693" sha384="9c422c3c2bf6dbcd77d8177da438483fe09e8e641c6627514217ff1219dbce414832f2b6db794f00e78f981925c42930" sha512="4bdf4a74772120a3f2a802da7e5380c287f87b326c92c3cf9df3d211f170c619ad0076807731729d38e5cb4cb778447cfcc055951f711823ce0071fb7f8c4876">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-bulgarian/1-5-9-1/bg-bg_joomla_lang_full_1-5-9v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

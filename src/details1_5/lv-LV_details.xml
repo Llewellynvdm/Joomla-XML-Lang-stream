@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Latvian</name>
+    <description>&lt;p&gt;This is the Latvian Language Pack for Joomla! 1.5.20&lt;/p&gt;</description>
+    <element>pkg_lv-LV</element>
+    <type>package</type>
+    <version>1.5.20.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="9ed26674b9239ede56c737feacc18d71" sha1="93d13609389ad6d792efd0c7d7c314017a688832" sha256="d783c729a7aa84aca01a9d390ca6be21d1baae328ecaf0522c9a4a8911e859a9" sha384="d125d214ed4a31370aedbf5d9c0b3cbc51b72d5d865b2336050246bf84f203d22d4db16630bcf4d5fafe485deffd551d" sha512="4500257967f16b1d7b883ca1518b6e966590da4f4caa97465498b8dbc96afecad426f3d209ddef4f2dd1f6a550434773383dc53a5fdf6d9ad73e456bf5f37fe6">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-latvian/1-5-20-1/lv-lv_joomla_lang_full_1-5-20v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

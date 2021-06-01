@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Danish</name>
+    <description>&lt;p&gt;This is the Danish Language Pack for Joomla! 1.5.23&lt;/p&gt;</description>
+    <element>pkg_da-DK</element>
+    <type>package</type>
+    <version>1.5.23.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="0718e48c2a35e3f66daa309f450fe092" sha1="278f323dcd309a82bb64b06cf8fb9d222e8e2167" sha256="235c7c47b3aaac4f05b68e642110fa55423ad2cad6b75a565b5fb4bda8a0b423" sha384="7ecfeda574a40f75ec2b688c485c6e9c3d1499d6e8894db58963d313b7426f3ff6cd3851844578b8440e48e71713719a" sha512="9bd1fdcaac4cc30958573f35719aa74c35b31e0bca187e5c7a4a1a7d4ac6ee3249eb4fa47fcdd38a9461e7dc7d5aba3050e3b7d41c789be3a063206dda49b15e">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-danish/1-5-23-1/da-dk_joomla_lang_full_1-5-23v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

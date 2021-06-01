@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Dutch</name>
+    <description>&lt;p&gt;This is the Dutch Language Pack for Joomla! 1.5.26&lt;/p&gt;</description>
+    <element>pkg_nl-NL</element>
+    <type>package</type>
+    <version>1.5.26.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="6fb077de3f9171861e83d17b3ea99400" sha1="c2c2a28fd675881e57ee694f6ebbf4595efd3e0d" sha256="3ed0c137e14ff9daa272258e8051c0b7eafc877dcb274c0778145f10735d807d" sha384="110784a989885be0e59d3ebc327ee40835cf69354d0a24353fb9ee26f9c41faf73e926be92fb2b24388678c4ae6a720a" sha512="8dfff6f13f6592bddda8587bc8a15cc50df1c623eb2361d711f058d003af0a1bc1df8c795a63a12610a5b51c95280576f750ed278bdd2d77662fc801b4287d0c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-dutch/1-5-26-1/nl-nl_joomla_lang_full_1-5-26v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

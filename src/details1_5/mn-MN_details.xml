@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Mongolian</name>
+    <description>&lt;p&gt;This is the Mongolian Language Pack for Joomla! 1.5.26&lt;/p&gt;</description>
+    <element>pkg_mn-MN</element>
+    <type>package</type>
+    <version>1.5.26.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="0f89865945dd784c05b253c2c75d1602" sha1="a4879c69bbf7891a7257ea4aa97f75de78ca6588" sha256="031dd811a2c497ccd3a8261890b5b53ca6c8b9eeb64138a524b57a0baf5d6cff" sha384="2f47c89d0f82eb99dac5d785fce9c1a7e41fc3bab4e067c2e4169ba177d21565df96ae337614c4aa823a409f6bccf3ee" sha512="61e5e4cb6d545956d5abdebbafc39bc91359d8f649b34adcd613e8a7aac87658b5e8a1499523d27bfb4260b0cb3bca55454cc44066b5acd9073596501212a97a">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-mongolian/1-5-26-1/mn-mn_joomla_lang_full_1-5-26v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

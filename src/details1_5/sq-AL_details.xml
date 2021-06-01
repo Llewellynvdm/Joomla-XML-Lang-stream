@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Albanian</name>
+    <description>&lt;p&gt;This is the Albanian Language Pack for Joomla! 1.5.18&lt;/p&gt;</description>
+    <element>pkg_sq-AL</element>
+    <type>package</type>
+    <version>1.5.18.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="e4e7dfe910d189fe5a341b41d6d721cf" sha1="2e87f9685465ae0bb5fd83b552da8eb2dc284e98" sha256="a08c488f559e26041495581a4fd450eb493fbf0e9183b359c9ed2d5101e5e458" sha384="8f35adfef785fe8bb8ebd218a123c0fc9ec55139e027364567c79cb23dc80e7071b0b0cfbfef577b316166f5bc1626dc" sha512="ec00e59e317077655e644bd711d43bc6cccd17b882edb0575d809bbb4dea758468248624c143af1889046eb58a340a3a78ba1ca95f5fac51fa9f78a044728435">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-albanian/1-5-18-1/sq-al_joomla_lang_full_1-5-18v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

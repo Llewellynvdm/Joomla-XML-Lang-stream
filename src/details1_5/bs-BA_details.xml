@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Bosnian</name>
+    <description>&lt;p&gt;This is the Bosnian Language Pack for Joomla! 1.5.23&lt;/p&gt;</description>
+    <element>pkg_bs-BA</element>
+    <type>package</type>
+    <version>1.5.23.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="c086698ee6dbba59bdb2324e81652ab7" sha1="a8c0847e3b61f09bad49786c440bfada945460c1" sha256="f54f7c13428d57e30dcae6d0a31f90e5857983bde1772136d1d748ec491c9fbf" sha384="e611b9a4d131b77be11d7aa79056403d38f6e9c3c2b512b3a87c823184de3b6b572343871171850dffc21a6fc2093162" sha512="ab709aee952d8723505cef2f89dbd59e3a276e1a713ac1c17352712a43cda16ffbcde368accd88e75e79318dba5e1a0aee5aef21ad3cc350e477d2f079fb23a2">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-bosnian/1-5-23-1/bs-ba_joomla_lang_full_1-5-23v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

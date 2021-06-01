@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Croatian</name>
+    <description>&lt;p&gt;This is the Croatian Language Pack for Joomla! 1.5.23&lt;/p&gt;</description>
+    <element>pkg_hr-HR</element>
+    <type>package</type>
+    <version>1.5.23.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="8991c520ad6edad6b6f17297e1b55a13" sha1="f2adffdf9a736378eacd81e5842e45fb60db6ff7" sha256="289315a5c3572e8a52358323aafd05c7d461e21891667afb36b01fc6b4431718" sha384="2fcd57baa4f5d73a9af9bfac6f3806ec30c30c85edc097e4fab4916eed376a937827616dbe46830fde1bc5527b4afa3b" sha512="bee48b77e33fbe2b1d9c09982491012195135978a707ddff6cea41c7ef4582063395ab66e048f7bdef5147dcf993cdad70eeccb1fe5685b6ebe843768d0f1850">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-croatian/1-5-23-1/hr-hr_joomla_lang_full_1-5-23v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

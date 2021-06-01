@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extensionset name="Accredited Joomla! Translations" description="Accredited Joomla! Translations Updates">
+  <extension name="Afrikaans" element="af-ZA" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/af-ZA_details.xml"/>
+  <extension name="Albanian" element="sq-AL" type="package" version="1.5.18.1" detailsurl="https://update.joomla.org/language/details1_5/sq-AL_details.xml"/>
+  <extension name="Arabic Unitag" element="ar-AA" type="package" version="1.5.21.1" detailsurl="https://update.joomla.org/language/details1_5/ar-AA_details.xml"/>
+  <extension name="Bosnian" element="bs-BA" type="package" version="1.5.23.1" detailsurl="https://update.joomla.org/language/details1_5/bs-BA_details.xml"/>
+  <extension name="Bulgarian" element="bg-BG" type="package" version="1.5.9.1" detailsurl="https://update.joomla.org/language/details1_5/bg-BG_details.xml"/>
+  <extension name="Catalan" element="ca-ES" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/ca-ES_details.xml"/>
+  <extension name="Croatian" element="hr-HR" type="package" version="1.5.23.1" detailsurl="https://update.joomla.org/language/details1_5/hr-HR_details.xml"/>
+  <extension name="Czech" element="cs-CZ" type="package" version="1.5.18.1" detailsurl="https://update.joomla.org/language/details1_5/cs-CZ_details.xml"/>
+  <extension name="Danish" element="da-DK" type="package" version="1.5.23.1" detailsurl="https://update.joomla.org/language/details1_5/da-DK_details.xml"/>
+  <extension name="Dutch" element="nl-NL" type="package" version="1.5.26.1" detailsurl="https://update.joomla.org/language/details1_5/nl-NL_details.xml"/>
+  <extension name="English, Australia" element="en-AU" type="package" version="1.5.25.1" detailsurl="https://update.joomla.org/language/details1_5/en-AU_details.xml"/>
+  <extension name="English, USA" element="en-US" type="package" version="1.5.15.1" detailsurl="https://update.joomla.org/language/details1_5/en-US_details.xml"/>
+  <extension name="Esperanto" element="eo-XX" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/eo-XX_details.xml"/>
+  <extension name="Estonian" element="et-EE" type="package" version="1.5.17.1" detailsurl="https://update.joomla.org/language/details1_5/et-EE_details.xml"/>
+  <extension name="French" element="fr-FR" type="package" version="1.5.23.1" detailsurl="https://update.joomla.org/language/details1_5/fr-FR_details.xml"/>
+  <extension name="German" element="de-DE" type="package" version="1.5.23.1" detailsurl="https://update.joomla.org/language/details1_5/de-DE_details.xml"/>
+  <extension name="Hebrew" element="he-IL" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/he-IL_details.xml"/>
+  <extension name="Hungarian" element="hu-HU" type="package" version="1.5.17.1" detailsurl="https://update.joomla.org/language/details1_5/hu-HU_details.xml"/>
+  <extension name="Indonesian, Bahasa Indonesia" element="id-ID" type="package" version="1.5.15.1" detailsurl="https://update.joomla.org/language/details1_5/id-ID_details.xml"/>
+  <extension name="Khmer (Cambodia)" element="km-KH" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/km-KH_details.xml"/>
+  <extension name="Laotian" element="lo-LA" type="package" version="1.5.21.1" detailsurl="https://update.joomla.org/language/details1_5/lo-LA_details.xml"/>
+  <extension name="Latvian" element="lv-LV" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/lv-LV_details.xml"/>
+  <extension name="Macedonian" element="mk-MK" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/mk-MK_details.xml"/>
+  <extension name="Mongolian" element="mn-MN" type="package" version="1.5.26.1" detailsurl="https://update.joomla.org/language/details1_5/mn-MN_details.xml"/>
+  <extension name="Norwegian Bokmål" element="nb-NO" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/nb-NO_details.xml"/>
+  <extension name="Persian Farsi" element="fa-IR" type="package" version="1.5.15.1" detailsurl="https://update.joomla.org/language/details1_5/fa-IR_details.xml"/>
+  <extension name="Polish" element="pl-PL" type="package" version="1.5.26.1" detailsurl="https://update.joomla.org/language/details1_5/pl-PL_details.xml"/>
+  <extension name="Portuguese, Brazil" element="pt-BR" type="package" version="1.5.17.1" detailsurl="https://update.joomla.org/language/details1_5/pt-BR_details.xml"/>
+  <extension name="Portuguese, Portugal" element="pt-PT" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/pt-PT_details.xml"/>
+  <extension name="Romanian" element="ro-RO" type="package" version="1.5.22.1" detailsurl="https://update.joomla.org/language/details1_5/ro-RO_details.xml"/>
+  <extension name="Russian" element="ru-RU" type="package" version="1.5.25.1" detailsurl="https://update.joomla.org/language/details1_5/ru-RU_details.xml"/>
+  <extension name="Slovak" element="sk-SK" type="package" version="1.5.21.1" detailsurl="https://update.joomla.org/language/details1_5/sk-SK_details.xml"/>
+  <extension name="Slovenian" element="sl-SI" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/sl-SI_details.xml"/>
+  <extension name="Spanish" element="es-ES" type="package" version="1.5.26.1" detailsurl="https://update.joomla.org/language/details1_5/es-ES_details.xml"/>
+  <extension name="Swedish" element="sv-SE" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/sv-SE_details.xml"/>
+  <extension name="Tamil, India" element="ta-IN" type="package" version="1.5.26.1" detailsurl="https://update.joomla.org/language/details1_5/ta-IN_details.xml"/>
+  <extension name="Thai" element="th-TH" type="package" version="1.5.15.1" detailsurl="https://update.joomla.org/language/details1_5/th-TH_details.xml"/>
+  <extension name="Turkish" element="tr-TR" type="package" version="1.5.20.1" detailsurl="https://update.joomla.org/language/details1_5/tr-TR_details.xml"/>
+  <extension name="Ukrainian" element="uk-UA" type="package" version="1.5.17.1" detailsurl="https://update.joomla.org/language/details1_5/uk-UA_details.xml"/>
+</extensionset>

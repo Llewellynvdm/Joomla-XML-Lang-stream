@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Portuguese (Brazil)</name>
+    <description>&lt;p&gt;This is the Portuguese, Brazil Language Pack for Joomla! 1.5.17&lt;/p&gt;</description>
+    <element>pkg_pt-BR</element>
+    <type>package</type>
+    <version>1.5.17.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="82cc262e4d4927e6e2eb09c8ddaeaa5a" sha1="120c7078c21bb034d5bedec89c74ee70a3aa8bda" sha256="b326a6beab73c6a1b69f308902e2cba1a10b650bd3adc7cdfe9e2601de838b01" sha384="35c4d81c1f895c002ebf331587925a3e72eabc9a06a2b2828da52501dc35a817bfd7ab13e16d2351d7f0e78709376a44" sha512="1ba86468a35b578595d3148814e611002d2775c476f7257950c093eb0197f7f0a2c647dc7f6824a8c3989843ebc267fb7729b34cb91feec99bb35def5ab7822c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-portuguese-brazil/1-5-17-1/pt-br_joomla_lang_full_1-5-17v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

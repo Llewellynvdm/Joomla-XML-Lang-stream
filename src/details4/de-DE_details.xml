@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 4 - German</name>
+    <description>&lt;p&gt;This is the German Language Pack for Joomla! 4.0.0-beta7&lt;/p&gt;</description>
+    <element>pkg_de-DE</element>
+    <type>package</type>
+    <version>4.0.0-beta7.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="cb83cec75c681c1b3aac3304e884610c" sha1="8860b95b845b0ad6389051e3b24f0e0e2cfadff7" sha256="dc435f85d726ae863d25081999c329d6e26a2111552b81556e9550fa1fc6a4b1" sha384="1b9c34709de09bfa5c3c65980fef223309522c547808e53d00446d46f796772fb83f5ecdca48d81a5a7e8c24040693eb" sha512="79b0339738217e43f7fadd1a56b2daff95990fe75641931f914bd8d7750efd52adc58359edd56e57fca0b0beed89a7d20b86dbefda2440c1744e37acb8430cfc">https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-german/4-0-0-beta7-1/de-de_joomla_lang_full_4-0-0-beta7v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="4.0"/>
+  </update>
+</updates>

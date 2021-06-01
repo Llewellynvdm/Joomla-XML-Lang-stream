@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Persian (Farsi)</name>
+    <description>&lt;p&gt;This is the Persian Farsi Language Pack for Joomla! 1.5.15&lt;/p&gt;</description>
+    <element>pkg_fa-IR</element>
+    <type>package</type>
+    <version>1.5.15.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="04d79f6cd9d522ab5a42945d881bb964" sha1="592a5b541020386e781293e0675931be9ecb6be2" sha256="a3a7abcaf50af02fc234b4d9ac4c4026a050b59764a0b56b84411a8cc8cd8b2c" sha384="498e23a7a303561f926d4c62cd9d08a9f04587766745206057380ddad8783af8201bf07070270b533b555f80ddc27e45" sha512="42f6694b669e1b6d70de70b57a3492ddeab37eb71aa18ef144319fbfccb122d89c8490fc55d0f782c3bfbce37a7d1001e181ef10bb262fcfa379488b67c4fdea">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-persian-farsi/1-5-15-1/fa-ir_joomla_lang_full_1-5-15v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - English (Australia)</name>
+    <description>&lt;p&gt;This is the English, Australia Language Pack for Joomla! 1.5.25&lt;/p&gt;</description>
+    <element>pkg_en-AU</element>
+    <type>package</type>
+    <version>1.5.25.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="c2c8bd36ed139c25dd70b96dc6af4c1b" sha1="e675daa1c55ff92b4257d055750ec25da2b0407f" sha256="692eb8879c3322260d61c5faf45086bb4cbfdf12685a44c508019fc25c2e7b9a" sha384="405ba44fa368c3957f1794c12d375e311872d70929ec38aab0e55298d8484acd7d60bf984f4f1f81562aa528206baf7b" sha512="796620456f339d403188051bfa8041cc2d6bba91dd070233602155b094dab8ca6ff3884ded029676d260b19bb347202ce0ac48d42888b119c413eeb7f040b1d5">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-english-australia/1-5-25-1/en-au_joomla_lang_full_1-5-25v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

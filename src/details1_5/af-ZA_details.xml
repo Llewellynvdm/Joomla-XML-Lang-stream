@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Afrikaans</name>
+    <description>&lt;p&gt;This is the Afrikaans Language Pack for Joomla! 1.5.22&lt;/p&gt;</description>
+    <element>pkg_af-ZA</element>
+    <type>package</type>
+    <version>1.5.22.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="6cd397c7fc7d3987542ff3918dc361dc" sha1="5611c4ed256181a00bcd8411132b87ee49edeb45" sha256="1fb496deb1756e134be82cc0d933e14df554d393253a5b77cf82598862482f23" sha384="49bb31050fbcdbb661e85a9da6d2e1614e5e86f17dcdebf69933d8709ecc44bd0153cd69641ad34254bac2fe629e3a50" sha512="384d5bdcc6cf0da523770a2c074e051b3df38156b5eb970a1bad4e7d7f549166288cb89e5bc864956ab7aef6277408561701cfaa45f60adae1733ca86306c4c9">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-afrikaans/1-5-22-1/af-za_joomla_lang_full_1-5-22v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Russian</name>
+    <description>&lt;p&gt;This is the Russian Language Pack for Joomla! 1.5.25&lt;/p&gt;</description>
+    <element>pkg_ru-RU</element>
+    <type>package</type>
+    <version>1.5.25.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="48eaf7fb00d78cd24940fe0b45a531c5" sha1="3858685bef640eadd408e8307ff809a9d34e6c95" sha256="cd1d9d4e1229462c4e9b929c717427a7ab88ccec9cafaca4668c08a55f54f749" sha384="e4fbfb54bb4062ec52c1b2aef39b24b36b108198e52b58c5e7e5e655eb1ac638d9f0853eee566b1de762a27204927021" sha512="c3c2b15d712f40b124ea9520252327b7c076e26090f8cfced0dd3cb7bd63069fe5d2507a91567ae8bfbaa25e318ca2c358633245b379b64ada26131e291e9557">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-russian/1-5-25-1/ru-ru_joomla_lang_full_1-5-25v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

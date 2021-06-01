@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Spanish</name>
+    <description>&lt;p&gt;This is the Spanish Language Pack for Joomla! 1.5.26&lt;/p&gt;</description>
+    <element>pkg_es-ES</element>
+    <type>package</type>
+    <version>1.5.26.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="f12be6d612bd36cd1ca9cc26a54af053" sha1="7face26aab06cc5a454708b572768e442df2e8fb" sha256="15efcf1340c467e3f9512a8cc11f1ed52e70e8cf9bee7e4e4fc6fbce90717c77" sha384="41db3f53f75556e25c73ecb803da727223697ea55bd48acd503e8bc4e67c099681e2a2f55126913bac0d1f4c5d0a84ad" sha512="b81e10aaac2938fb819edf9259fdc976ac7bffd0a3ab165ab5131ec21b42f4bf32ed77f45a5e965d57caf50faa7ff0b44b9efcc01dbc623149345a8c8f6b8a81">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-spanish/1-5-26-1/es-es_joomla_lang_full_1-5-26v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

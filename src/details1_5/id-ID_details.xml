@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - Indonesian (Bahasa Indonesia)</name>
+    <description>&lt;p&gt;This is the Indonesian, Bahasa Indonesia Language Pack for Joomla! 1.5.15&lt;/p&gt;</description>
+    <element>pkg_id-ID</element>
+    <type>package</type>
+    <version>1.5.15.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="389ebd97bf4b003f9ac10b2b2dd2beb2" sha1="ef59df7a501012513b026a7c98e5670dea8d1718" sha256="dd6e786ec84a2c9ca43532246c47e60162107b19586534ca1726e002e17de9a9" sha384="9b24c3ec58c58b7a60eddc1af103948636bcd4c2d1e724ff0c31e6a1dbc7009644c3dfb4b60cfb14a1a0d294accc0b63" sha512="1c540667b42ba82c527e2ad8dcaf7714d45c3556a1af36f5acc9a14f4e5bd14faa8fd33c899feeb51a8bbda361add893f3b93879eaee325fe1806d0fa916694c">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-indonesian/1-5-15-1/id-id_joomla_lang_full_1-5-15v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>

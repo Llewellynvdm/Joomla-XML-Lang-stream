@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Joomla! 1.5 - French</name>
+    <description>&lt;p&gt;This is the French Language Pack for Joomla! 1.5.23&lt;/p&gt;</description>
+    <element>pkg_fr-FR</element>
+    <type>package</type>
+    <version>1.5.23.1</version>
+    <downloads>
+      <downloadurl type="full" format="zip" md5="b9ae8b18b87c03a97eecddf8f2771ffe" sha1="73b41cce412adb5e51a5fa48c97d5ab34a0365a0" sha256="ff4660aa5efdfbaa23395aef0ca89725bb17fb6343957065eac6752968405651" sha384="2a446d3799caef88022e6d058957ea41e056bec9512ff380bf9cc8163f7a86f578f7c308c9e12565a6371313f31bed30" sha512="dc3b0b5ccc298f121a602390333536921bcdfd6ec05cc27c5ca1654b9f9422524b6c4b6d5fc91aeb6fd348a91b0ecf61cfc4fe9666cb719874a56735bbb94cb4">https://downloads.joomla.org/language-packs/translations-joomla15/downloads/joomla15-french/1-5-23-1/fr-fr_joomla_lang_full_1-5-23v1-zip?format=zip</downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="1.5"/>
+  </update>
+</updates>
