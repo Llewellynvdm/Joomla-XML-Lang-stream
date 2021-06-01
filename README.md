@@ -30,7 +30,7 @@ $ ./run.sh
 ```txt
 Usage: ./run.sh [OPTION...]
 
-You are able to change a few default behaviours in the getBible API builder
+You are able to change a few default behaviours in the XML Static File extractor
   ------ Passing no command options will fallback on the defaults -------
 
 	Options ᒡ◯ᵔ◯ᒢ
