@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<errors>
-  <error>
-    <message>CMS version required for export</message>
-  </error>
-</errors>
+<extensionset name="Accredited Joomla! Translations" description="Accredited Joomla! Translations Updates">
+  <extension name="German" element="de-DE" type="package" version="4.0.0-beta7.1" detailsurl="https://update.joomla.org/language/details4/de-DE_details.xml"/>
+</extensionset>

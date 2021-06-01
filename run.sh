@@ -27,7 +27,7 @@ function main() {
   # now get the mapper data
   while IFS=$'\t' read -r -a row
 	do
-		[[ "$row" =~ ^#.*$ ]] &&
+		[[ "$row" =~ ^#.*$ ]] && continue
 		# set the url
     URL_MAIN_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${row[0]}"
     # set the path
