@@ -57,6 +57,21 @@ function main() {
       fi
     done < "${PATH_MAIN_FILE}"
 	done < "$REPO_MAPPER"
+	# check if we should update the repo
+	if (("$PUSH" == 1)); then
+    # we first check if there are changes
+    if [[ -z $(git status --porcelain) ]];
+    then
+      echo "Nothing to commit here"
+    else
+      # make sure all new files are added and others removed where needed
+      git add .
+      # now commit the bunch...
+      git commit -am "Update"
+      # now push changes up to github...
+      git push
+    fi
+	fi
   # show completion message
   completedBuildMessage
   exit 0
@@ -107,6 +122,7 @@ function setDefaults() {
     URL_VERSION_KEY=$(getDefault "xml.stream.url.version.key" "${URL_VERSION_KEY}")
     URL_LANGUAGE_KEY=$(getDefault "xml.stream.url.language.key" "${URL_LANGUAGE_KEY}")
     REPO_MAPPER=$(getDefault "xml.stream.repo.mapper" "${REPO_MAPPER}")
+    PUSH=$(getDefault "xml.stream.repo.push" "$PUSH")
     TARGET_FOLDER=$(getDefault "xml.stream.target.folder" "${TARGET_FOLDER}")
     QUIET=$(getDefault "xml.stream.build.quiet" "$QUIET")
   fi
@@ -153,6 +169,12 @@ You are able to change a few default behaviours in the XML Stream Generator
 	defaults:
 		- repo/conf/.mapper
 	======================================================
+   --push
+	push changes to github (only if there are changes)
+		- must be able to push (ssh authentication needed)
+
+	example: ${0##*/:-} --push
+	======================================================
    --target-folder=<path>
 	set folder where we place the XML static files
 
@@ -198,6 +220,7 @@ URL_LANGUAGE_KEY="language_code"
 REPO_MAPPER='conf/.mapper'
 TARGET_FOLDER='src/'
 CONFIG_FILE='conf/.config'
+PUSH=0
 DRYRUN=0
 QUIET=0
 
@@ -214,6 +237,9 @@ while :; do
   --dry)
     DRYRUN=1
     ;;
+	--push)
+		PUSH=1
+		;;
   --version-key) # Takes an option argument; ensure it has been specified.
     if [ "$2" ]; then
       URL_VERSION_KEY=$2
@@ -311,6 +337,7 @@ if (("$DRYRUN" == 1)); then
   echo "URL_VERSION_KEY:  ${URL_VERSION_KEY}"
   echo "URL_LANGUAGE_KEY: ${URL_LANGUAGE_KEY}"
   echo "REPO_MAPPER:      ${REPO_MAPPER}"
+  echo "PUSH:             ${PUSH}"
   echo "CONFIG_FILE:      ${CONFIG_FILE}"
   echo "TARGET_FOLDER:    ${TARGET_FOLDER}"
   echo "QUIET:            ${QUIET}"

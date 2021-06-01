@@ -59,6 +59,12 @@ You are able to change a few default behaviours in the getBible API builder
     defaults:
         - repo/conf/.mapper
     ======================================================
+   --push
+	push changes to github (only if there are changes)
+		- must be able to push (ssh authentication needed)
+
+	example: ${0##*/:-} --push
+    ======================================================
    --target-folder=<path>
     set folder where we place the XML static files
 

@@ -19,6 +19,9 @@ xml.stream.url.language.key=language_code
 # xml stream mapper file
 xml.stream.repo.mapper=/home/username/XML-stream/conf/.mapper
 
+# xml stream push xml updates back to git server 0->no; 1->yes (assumes user is having ssh access configured)
+xml.stream.repo.push=0
+
 # xml stream target folder where we place the XML static files
 xml.stream.target.folder=/home/username/XML-stream/src/
 
